@@ -1,1 +1,0 @@
-# intelliJ-teamproject
