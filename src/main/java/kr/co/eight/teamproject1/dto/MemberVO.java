@@ -12,6 +12,7 @@ import java.time.LocalDateTime;
 @NoArgsConstructor
 @AllArgsConstructor
 public class MemberVO {
+
     private String MEMBER_PW;
     private String MEMBER_NAME;
     private String MEMBER_EMAIL;
