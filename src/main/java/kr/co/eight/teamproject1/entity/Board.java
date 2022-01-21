@@ -9,7 +9,7 @@ import javax.persistence.*;
 @Builder
 @AllArgsConstructor
 @NoArgsConstructor
-@ToString(exclude = "writer")
+@ToString(exclude = "MEMBER_ID")
 public class Board extends BaseEntity {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -26,8 +26,8 @@ public class Board extends BaseEntity {
     private Long BOARD_READCNT;
 
 
-    @ManyToOne(fetch = FetchType.LAZY)
-    private Member writer;
+//    @ManyToOne(fetch = FetchType.LAZY)
+//    private Member MEMBER_ID;
 
 
 

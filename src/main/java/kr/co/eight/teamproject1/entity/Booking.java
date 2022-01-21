@@ -24,4 +24,9 @@ public class Booking extends BaseEntity{
     private String BOOKING_PLACE_ADDRESS; //VARCHAR(600) NOT NULL,
     private Long BOOKING_TEAMMEMBER; //INT(20) NOT NULL,
     private String BOOKING_NAME; //VARCHAR(30)
+
+//    @ManyToOne(fetch = FetchType.LAZY)
+//    private Member MEMBER_ID;
+
+    //TEAMmember_NICKNAME
 }

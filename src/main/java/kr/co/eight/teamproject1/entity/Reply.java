@@ -21,4 +21,7 @@ public class Reply extends BaseEntity {
     @ManyToOne(fetch = FetchType.LAZY)
     private Board board;
 
+//    @ManyToOne(fetch = FetchType.LAZY)
+//    private Member writer;
+
 }
